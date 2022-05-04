@@ -1,0 +1,32 @@
+body {
+    background-color: #3b3939;
+    color: #1F618D;
+    font-family: calibri;
+    padding: 10px;
+    color: rgb(220, 220, 220);
+}
+
+canvas {
+    border: solid 1px white;
+    overflow: scroll;
+}
+
+.interlineation {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.container {
+    margin-top: 10px;
+}
+
+.button {
+    
+    border: 0;
+    margin-left: 10px;
+}
+
+.button:hover {
+    background-color: rgb(230, 230, 230);
+    box-shadow: 0 0 10px rgb(180, 180, 180);
+}

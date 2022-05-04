@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/normalize.css">
+    <link rel="stylesheet" href="style/styles.css">
+    <title>12</title>
+
+</head>
+
+<body>
+
+    <h1>Filter Fun</h1>
+
+    <canvas id="canvas"></canvas>
+    
+    <div>
+        <h3>Load Image</h3>
+        <input type="file" multiple="false" accept="image/*" id="imgFile" onchange="loadImage()"/>
+    </div>
+    
+    <div>
+        <h2>Choose Filter</h2>
+        <input class="button" type="button" value="Grayscale" onclick="makeGray()"/>
+        <input class="button" type="button" value="Red Filter" onclick="redFilter()"/>
+        <input class="button" type="button" value="Rainbow Filter" onclick="rainbowFilter()"/>
+        <input class="button" type="button" value="My Filter" onclick="myFilter()"/>
+        <input class="button" type="button" value="blur" onclick="blurFilter()"/>
+    </div>
+
+    <div class="container">
+        <input class="button" type="button" value="Reset" onclick="resetImage()"/>
+    </div>
+    
+    <script src='https://www.dukelearntoprogram.com/course1/common/js/image/SimpleImage.js'></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
